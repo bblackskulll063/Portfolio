@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background-color: #01011d;
+  font-family: "Ubuntu", sans-serif;
+}
+nav {
+  display: flex;
+  background-color: #03062c;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+}
+nav li a:hover{
+  color: rgb(39, 97, 148);
+  font-size: 1.04rem;
+}
+
+.left {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 90px 0;
+  
+} 
+.first-section > div{
+  width: 36%;
+}
+
+.smallSection{
+  margin-top: 10%;
+}
+
+.leftSection {
+  font-size: 2.5rem;
+  font-weight: bold;  
+  margin-left: 50px;
+  
+}
+.rightSection{
+  height: 280px;
+}
+.rightSection img{
+  height: 110%;
+  margin: -16px 0px;
+}
+
+spam{
+  color: rgb(124, 124, 204);
+}
